@@ -36,7 +36,7 @@ const Post = () => {
                   <IoIosMore />
                 </div>
                 <div className="col content_panel">
-                  <div className="content">
+                  <div className="content flex flex-col justify-center">
                     <img
                       className="mt-3 rounded-xl border shadow-md"
                       src={item.img}
