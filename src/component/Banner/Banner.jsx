@@ -30,10 +30,10 @@ const Banner = () => {
               </div>
               <div className="logo-txt relative  flex justify-center items-center h-full w-full">
                 <p className="absolute  text-4xl text-transparent font-ff font-bold tranlate-x-1/2 tranlate-y-1/2">
-                  Time&nbsp;Zone&nbsp;&nbsp;Pro
+                  Time&nbsp;Zone
                 </p>
                 <p className="absolute  text-4xl text-transparent font-ff font-bold tranlate-x-1/2 tranlate-y-1/2">
-                  Time&nbsp;Zone&nbsp;&nbsp;Pro
+                  Time&nbsp;Zone
                 </p>
               </div>
             </div>

@@ -1,57 +1,107 @@
 {
     "postData":[
         {
-            "img":"https://github.com/YasinArafatAjad/timezone/blob/main/src/assets/05.jpg?raw=true",
-            "caption":" smile :)",
+            "img":"../src/assets/19.jpg",
+
+            "caption":"",
+
             "like": 1368,
             "share":4587,
             "time" : "10 Oct 2024"
         },
         {
-            "img":"https://github.com/YasinArafatAjad/timezone/blob/main/src/assets/04.jpg?raw=true",
-            "caption":" smile :)",
+            "img":"../src/assets/19.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "10 Oct 2024"
+        },
+        {
+            "img":"../src/assets/19.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "10 Oct 2024"
+        },
+        {
+            "img":"../src/assets/19.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "10 Oct 2024"
+        },
+        {
+            "img":"https://github.com/YasinArafatAjad/timezone/blob/main/src/assets/05.jpg?raw=true",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "10 Oct 2024"
+        },
+        {
+            "img": "https://github.com/YasinArafatAjad/timezone/blob/main/src/assets/04.jpg?raw=true",
+
+            "caption": "",
+        
             "like": 2547,
             "share":654,
             "time" : "10 Oct 2024"
         },
         {
-            "img":"https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "caption":" smile :)",
+            "img": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
+            "caption": " smile :)",
+
             "like": 14,
             "share":36,
             "time" : "10 Oct 2024"
         },
         {
             "img":"https://github.com/YasinArafatAjad/timezone/blob/main/src/assets/pic1.jpg?raw=true",
-            "caption":" adipisicing elit. Minus, cum?Lorem ipsum dolor sit, amet consectetur adipisicing",
+
+            "caption": "",
+
             "like": 324,
             "share":0,
             "time" : "10 Oct 2024"
         },
         {
             "img":"https://github.com/YasinArafatAjad/timezone/blob/main/src/assets/03.jpg?raw=true",
-            "caption":" adipisicing elit. Minus, cum?Lorem ipsum dolor sit, amet consectetur adipisicing",
+
+            "caption": "আইতাছি...",
+
             "like": 46,
             "share":22,
             "time" : "10 Oct 2024"
         },
         {
             "img":"https://github.com/YasinArafatAjad/timezone/blob/main/src/assets/2.jpg?raw=true",
-            "caption":" Minus, cum?Lorem ipsum dolor sit, amet consectetur adipisicing",
+
+            "caption": "",
+
             "like":185,
             "share":11,
             "time" : "09 Oct 2024"
         },
         {
             "img":"https://github.com/YasinArafatAjad/timezone/blob/main/src/assets/02.jpg?raw=true",
-            "caption":" Minus, cum?Lorem ipsum dolor sit, amet consectetur adipisicing",
+            "caption":"মানুষের মতো বাচতে চাই ...",
             "like":364,
             "share":18,
             "time" : "09 Oct 2024"
         },
         {
             "img":"https://github.com/YasinArafatAjad/timezone/blob/main/src/assets/01.jpg?raw=true",
-            "caption":" dolor sit, amet consectetur adipisicing elit. Minus, cum?Lorem ipsum dolor sit, amet consectetur adipisicing",
+
+            "caption":"স্বপ্ন আকাশ ছুয়া,বাস্তবতা শূন্য",
+
             "like":587,
             "share":1800,
             "time" : "08 Oct 2024"
