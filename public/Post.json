@@ -1,0 +1,25 @@
+{
+    "postData":[
+        {
+            "img":"../src/assets/pic1.jpg",
+            "caption":" adipisicing elit. Minus, cum?Lorem ipsum dolor sit, amet consectetur adipisicing",
+            "like": 46,
+            "share":22,
+            "time" : "10 Oct 2024"
+        },
+        {
+            "img":"../src/assets/pic1.jpg",
+            "caption":" Minus, cum?Lorem ipsum dolor sit, amet consectetur adipisicing",
+            "like":364,
+            "share":18,
+            "time" : "09 Oct 2024"
+        },
+        {
+            "img":"../src/assets/pic1.jpg",
+            "caption":" dolor sit, amet consectetur adipisicing elit. Minus, cum?Lorem ipsum dolor sit, amet consectetur adipisicing",
+            "like":587,
+            "share":1800,
+            "time" : "08 Oct 2024"
+        }
+    ]
+}
