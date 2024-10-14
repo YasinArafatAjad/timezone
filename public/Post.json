@@ -1,6 +1,13 @@
 {
     "postData":[
         {
+            "img":"https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "caption":" smile :)",
+            "like": 1368,
+            "share":4587,
+            "time" : "10 Oct 2024"
+        },
+        {
             "img":"../src/assets/03.jpg",
             "caption":" adipisicing elit. Minus, cum?Lorem ipsum dolor sit, amet consectetur adipisicing",
             "like": 324,
