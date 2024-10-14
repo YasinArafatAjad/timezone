@@ -39,7 +39,7 @@ const Post = () => {
                     <img
                       className="mt-3 rounded-xl border shadow-md"
                       src={item.img}
-                      alt="Post1"
+                      alt={`Post ${i+1}`}
                     />
                     <p className="caption pt-5 text-sm text-slate-700">
                       {item.caption}
