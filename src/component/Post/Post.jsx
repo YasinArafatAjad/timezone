@@ -6,6 +6,7 @@ import userImg from "../../../public/assets/pic1.jpg";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
 import poste from "../../../public/Post.json";
 import { useState } from "react";
+import { MdVerified } from "react-icons/md";
 
 const Post = () => {
   const posts = poste.postData;
@@ -26,7 +27,7 @@ const Post = () => {
                       alt="userImg"
                     />
                     <div className="post_userName_wrapper">
-                      <h4 className="userName font-bold">Yasin Arafat Ajad</h4>
+                      <h4 className="userName font-bold flex gap-1 items-center">{item.user} <MdVerified className="text-[#228BE6]"/></h4>
                       <p className="post_Time text-xs text-slate-600">
                         {item.time}
                       </p>
