@@ -2,7 +2,7 @@
 /* eslint-disable react/jsx-key */
 import { IoIosMore, IoMdShare } from "react-icons/io";
 import "./Post.css";
-import pic1 from "../../assets/pic1.jpg";
+import userImg from "../../../public/assets/pic1.jpg";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
 import poste from "../../../public/Post.json";
 import { useState } from "react";
@@ -22,7 +22,7 @@ const Post = () => {
                   <div className="post_userPanel_wrapper flex gap-2 items-center">
                     <img
                       className="userImg h-10 w-10 rounded-full border-2 border-solid border-slate-400"
-                      src={pic1}
+                      src={userImg}
                       alt="userImg"
                     />
                     <div className="post_userName_wrapper">
