@@ -1,22 +1,22 @@
 {
     "postData":[
         {
-            "img":"./assets/10.jpg",
+            "img":"./08.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "12 Oct 2024"
+        },
+        {
+            "img":"./assets/01.jpg",
 
             "caption":"",
 
             "like": 1368,
             "share":4587,
             "time" : "11 Oct 2024"
-        },
-        {
-            "img":"../src/assets/19.jpg",
-
-            "caption":"",
-
-            "like": 1368,
-            "share":4587,
-            "time" : "10 Oct 2024"
         },
         {
             "img":"../src/assets/19.jpg",
