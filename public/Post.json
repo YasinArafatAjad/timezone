@@ -1,6 +1,13 @@
 {
     "postData":[
         {
+            "img":"../src/assets/03.jpg",
+            "caption":" adipisicing elit. Minus, cum?Lorem ipsum dolor sit, amet consectetur adipisicing",
+            "like": 324,
+            "share":0,
+            "time" : "10 Oct 2024"
+        },
+        {
             "img":"../src/assets/pic1.jpg",
             "caption":" adipisicing elit. Minus, cum?Lorem ipsum dolor sit, amet consectetur adipisicing",
             "like": 46,
@@ -8,14 +15,21 @@
             "time" : "10 Oct 2024"
         },
         {
-            "img":"../src/assets/pic1.jpg",
+            "img":"../src/assets/2.jpg",
+            "caption":" Minus, cum?Lorem ipsum dolor sit, amet consectetur adipisicing",
+            "like":185,
+            "share":11,
+            "time" : "09 Oct 2024"
+        },
+        {
+            "img":"../src/assets/02.jpg",
             "caption":" Minus, cum?Lorem ipsum dolor sit, amet consectetur adipisicing",
             "like":364,
             "share":18,
             "time" : "09 Oct 2024"
         },
         {
-            "img":"../src/assets/pic1.jpg",
+            "img":"../src/assets/01.jpg",
             "caption":" dolor sit, amet consectetur adipisicing elit. Minus, cum?Lorem ipsum dolor sit, amet consectetur adipisicing",
             "like":587,
             "share":1800,
