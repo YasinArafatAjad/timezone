@@ -54,7 +54,7 @@ const handleShareClick = ()=>{
                       src={img}
                       alt={`Post ${id}`}
                     />
-                    <p className="caption whitespace-pre pt-5 text-sm text-slate-700">
+                    <p className="caption whitespace-pre pt-5 pl-10 text-sm text-slate-700">
                       {caption}
                     </p>
                   </div>
