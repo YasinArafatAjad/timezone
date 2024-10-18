@@ -1,7 +1,7 @@
 {
     "postData":[
         {
-            "id" : 1,
+            "id" : 66,
             "img":"./assets/66.jpg",
 
             "caption":"",
@@ -13,7 +13,7 @@
             "user" : "Yasin Arafat Ajad"
         },
         {
-            "id" : 2,
+            "id" : 65,
             "img":"./assets/65.jpg",
 
             "caption":"",
@@ -23,6 +23,768 @@
             "time" : "11 Oct 2024",
 
             "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 64,
+            "img":"./assets/64.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 63,
+            "img":"./assets/63.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 62,
+            "img":"./assets/62.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 61,
+            "img":"./assets/61.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 60,
+            "img":"./assets/60.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 59,
+            "img":"./assets/59.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 58,
+            "img":"./assets/58.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 57,
+            "img":"./assets/57.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 56,
+            "img":"./assets/56.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 55,
+            "img":"./assets/55.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 54,
+            "img":"./assets/54.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 53,
+            "img":"./assets/53.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 52,
+            "img":"./assets/52.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 51,
+            "img":"./assets/51.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 50,
+            "img":"./assets/50.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 49,
+            "img":"./assets/49.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 48,
+            "img":"./assets/48.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 47,
+            "img":"./assets/47.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 46,
+            "img":"./assets/46.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 45,
+            "img":"./assets/45.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 44,
+            "img":"./assets/44.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 43,
+            "img":"./assets/43.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 42,
+            "img":"./assets/42.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 41,
+            "img":"./assets/41.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 40,
+            "img":"./assets/40.png",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 39,
+            "img":"./assets/39.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 38,
+            "img":"./assets/38.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 37,
+            "img":"./assets/37.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 36,
+            "img":"./assets/36.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 35,
+            "img":"./assets/35.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 34,
+            "img":"./assets/34.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 33,
+            "img":"./assets/33.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 32,
+            "img":"./assets/32.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 31,
+            "img":"./assets/31.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 30,
+            "img":"./assets/30.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 29,
+            "img":"./assets/29.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 28,
+            "img":"./assets/28.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 27,
+            "img":"./assets/27.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 26,
+            "img":"./assets/26.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 25,
+            "img":"./assets/25.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 24,
+            "img":"./assets/24.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 23,
+            "img":"./assets/23.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 22,
+            "img":"./assets/22.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 21,
+            "img":"./assets/21.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 20,
+            "img":"./assets/20.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 19,
+            "img":"./assets/19.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 18,
+            "img":"./assets/18.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 17,
+            "img":"./assets/17.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 16,
+            "img":"./assets/16.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 15,
+            "img":"./assets/15.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 14,
+            "img":"./assets/14.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 13,
+            "img":"./assets/13.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 12,
+            "img":"./assets/12.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 11,
+            "img":"./assets/11.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "11 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 10,
+            "img":"./assets/10.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "10 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 9,
+            "img":"./assets/09.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "10 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 8,
+            "img":"./assets/08.jpg",
+
+            "caption":"",
+
+            "like": 1368,
+            "share":4587,
+            "time" : "10 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 7,
+            "img":"./assets/07.jpg",
+
+            "caption": "",
+
+            "like": 2547,
+            "share":654,
+            "time" : "10 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 6,
+            "img":"./assets/06.jpg",
+
+            "caption": " smile :)",
+
+            "like": 14,
+            "share":36,
+            "time" : "10 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 5,
+            "img":"./assets/05.jpg",
+
+            "caption": "",
+
+            "like": 324,
+            "share":0,
+            "time" : "10 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 4,
+            "img":"./assets/04.jpg",
+
+            "caption": "",
+
+            "like": 46,
+            "share":22,
+            "time" : "10 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 3,
+            "img":"./assets/03.jpg",
+
+            "caption": "",
+
+            "like":185,
+            "share":11,
+            "time" : "09 Oct 2024"
+        },
+        {
+            "id" : 2,
+            "img":"./assets/02.jpg",
+
+            "caption":"মানুষের মতো বাচতে চাই ...",
+            "like":364,
+            "share":18,
+            "time" : "09 Oct 2024"
+        },
+        {
+            "id" : 1,
+            "img":"./assets/01.jpg",
+
+            "caption":"স্বপ্ন আকাশ ছুয়া,বাস্তবতা শূন্য",
+
+            "like":587,
+            "share":1800,
+            "time" : "08 Oct 2024"
         }
+
     ]
 }
