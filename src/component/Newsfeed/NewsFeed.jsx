@@ -19,8 +19,8 @@ const NewsFeed = () => {
          time={e.time}
          caption={e.caption}
          img={e.img}
-         initialLikes={e.like}
-         initialShares={e.share}
+         initialLike={e.like}
+         initiaShare={e.share}
        />
       ))}
     </>
