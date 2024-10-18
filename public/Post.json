@@ -1,10 +1,34 @@
 {
     "postData":[
         {
+            "id" : 68,
+            "img":"./assets/68.jpg",
+
+            "caption":"তুমি দৃষ্টির আড়ালে থাকা\nবকুল ফুল আমার",
+
+            "like": 69584,
+            "share":5214,
+            "time" : "19 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 67,
+            "img":"./assets/67.jpg",
+
+            "caption":"",
+
+            "like": 2547,
+            "share":999,
+            "time" : "16 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
             "id" : 66,
             "img":"./assets/66.jpg",
 
-            "caption":"তুমি দৃষ্টির আড়ালে থাকা\nবকুল ফুল আমার",
+            "caption":"",
 
             "like": 1368,
             "share":4587,
