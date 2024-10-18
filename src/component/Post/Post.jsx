@@ -64,7 +64,7 @@ const handleShareClick = ()=>{
                     <span
                       onClick={handleLikeClick}
                     >
-                      {!isLiked ? (
+                      {isLiked ? (
                         <FaHeart className="text-[#ff0000]" />
                       ) : (
                         <FaRegHeart />
@@ -72,7 +72,7 @@ const handleShareClick = ()=>{
                     </span>
                     <span className="text-base text-slate-400">
                       {/* {isReacted ? item.like : item.like + 1} */}
-                      {like}
+                      {likes}
                     </span>
                   </p>
                   <p className="share flex items-center gap-1 text-2xl text-slate-600">
