@@ -7,7 +7,7 @@ import { FaHeart, FaRegHeart } from "react-icons/fa";
 import { IoIosMore, IoMdShare } from "react-icons/io";
 import { useState } from "react";
 
-const Post = (like,caption,user,time,img,id,initialLike,initiaShare) => {
+const Post = ({like,caption,user,time,img,id,initialLike,initiaShare}) => {
   // initial like/share
 const [ likes,setLikes ] = useState(initialLike);
 const [ share,setShare ] = useState(initiaShare);
