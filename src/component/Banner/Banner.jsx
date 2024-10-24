@@ -7,13 +7,13 @@ const Banner = () => {
       <section id="header" className="bg-[#EF9F9F] mb-2">
         <div className="container">
           <div className="row">
-            <div className="col py-12 px-2 flex flex-col gap-y-6  justify-center items-center">
+            <div className="col pt-4 pb-12 px-2 flex flex-col gap-y-6  justify-center items-center">
               <div className="logo-icon">
                 <svg
                   version="1.0"
                   xmlns="http://www.w3.org/2000/svg"
                   width="100%"
-                  height="159px"
+                  height="100px"
                   viewBox="0 0 352.000000 159.000000"
                   preserveAspectRatio="xMidYMid meet"
                 >
