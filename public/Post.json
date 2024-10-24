@@ -1,6 +1,18 @@
 {
     "postData":[
         {
+            "id" : 69,
+            "img":"./assets/69.jpg",
+
+            "caption": "জীবনের প্রতিটা মূহুর্ত থেকে \nনতুন করে গুছানো যায় ।",
+
+            "like": 0,
+            "share":0,
+            "time" : "24 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
             "id" : 68,
             "img":"./assets/68.jpg",
 
