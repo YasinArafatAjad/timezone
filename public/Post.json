@@ -1,10 +1,22 @@
 {
     "postData":[
         {
+            "id" : 71,
+            "img":"./assets/71.jpg",
+
+            "caption": "আব্বুর আদর্শে গড়া 🌷😘",
+
+            "like": 2547,
+            "share":0,
+            "time" : "25 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
             "id" : 70,
             "img":"./assets/70.jpg",
 
-            "caption": "",
+            "caption": "People what think\nI don't care",
 
             "like": 0,
             "share":0,
