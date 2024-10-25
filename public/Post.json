@@ -1,6 +1,18 @@
 {
     "postData":[
         {
+            "id" : 70,
+            "img":"./assets/70.jpg",
+
+            "caption": "",
+
+            "like": 0,
+            "share":0,
+            "time" : "25 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
             "id" : 69,
             "img":"./assets/69.jpg",
 
