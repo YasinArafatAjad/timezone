@@ -5,64 +5,31 @@ import userImg from "../../../public/assets/pic1.jpg";
 import { MdVerified } from "react-icons/md";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
 import { IoIosMore, IoMdShare } from "react-icons/io";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import LinesEllipsis from "react-lines-ellipsis";
 
-const Post = ({
-  caption,
-  user,
-  time,
-  img,
-  id,
-  initialLike,
-  initialShare,
-}) => {
-  
-  const [likes, setLikes] = useState(()=>{
-    const savedLikes = localStorage.getItem(id);
-    return savedLikes ? parseInt(savedLikes) : initialLike;
-    
-  });
+const Post = ({ id, user, time, img, video, caption, initialLike, initialShare }) => {
   // handle like
+  const [likes, setLikes] = useState(initialLike);
   const [isLiked, setIsLiked] = useState(true);
 
-  // const [isLiked, setIsLiked] = useState(() => {
-  //   // const savedData = localStorage.getItem(id);
-  //   // return savedData ? JSON.parse(savedData).isLiked : false;
-  // });
   const handleLikeClick = () => {
-    const newLikes = isLiked ? likes + 1 : likes - 1;
-    setLikes(newLikes);
+    {
+      isLiked ? setLikes(likes + 1) : setLikes(likes - 1);
+    }
     setIsLiked(!isLiked);
-    // console.log(`Like: ${newLikes}, Share: ${share}`);
-
-    // update on Local storage
-    // localStorage.setItem(id, newLikes);
-    // localStorage.setItem(id, JSON.stringify({ likes: newLikes}))
   };
 
   // share handle
-  // const [share, setShare] = useState(()=>{
-  //   const savedShare = localStorage.getItem(id);
-  //   return savedShare ? parseInt(savedShare) : initialShare;
-  // });
-
   const [share, setShare] = useState(initialShare);
   const handleShareClick = () => {
     const newShare = share + 1;
     setShare(newShare);
-
-    // update on Local Storage
-    // localStorage.setItem(id, JSON.stringify({ likes, share: newShare }));
   };
+
   // Line ellipsis
   const [ellipsis, setEllipsis] = useState(false);
   const handleEllipsis = () => setEllipsis(!ellipsis);
-
-  useEffect(() => {
-    localStorage.setItem(id, JSON.stringify({ likes, share, isLiked }));
-  }, [likes, share, isLiked, id]);
-
 
   return (
     <>
@@ -102,17 +69,26 @@ const Post = ({
                     <LinesEllipsis
                       text={caption}
                       maxLine={3}
-                      ellipsis={<span>..see more</span>}
+                      ellipsis={<span>...see more</span>}
                       trimRight
                       basedOn="letters"
                     />
                   </div>
                 )}
-                <img
-                  className="mt-3 rounded-xl border shadow-md"
-                  src={img}
-                  alt={`Post ${id}`}
-                />
+                 {video ? ( // Conditional rendering for video
+                  <video
+                    className="mt-3 rounded-xl border shadow-md max-h-[80vh]"
+                    controls
+                    src={video}
+                    alt={`Post ${id}`}
+                  />
+                ) : (
+                  <img
+                    className="mt-3 rounded-xl border shadow-md"
+                    src={img}
+                    alt={`Post ${id}`}
+                  />
+                )}
               </div>
             </div>
             <div className="col reaction_panel pt-5 flex justify-between px-10 pb-5">
@@ -124,10 +100,7 @@ const Post = ({
                     <FaHeart className="text-[#ff0000]" />
                   )}
                 </span>
-                <span className="text-base text-slate-400">
-                  {/* {isReacted ? item.like : item.like + 1} */}
-                  {likes}
-                </span>
+                <span className="text-base text-slate-400">{likes}</span>
               </p>
               <p className="share flex items-center gap-1 text-2xl text-slate-600">
                 <span>

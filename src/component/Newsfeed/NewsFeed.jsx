@@ -9,6 +9,7 @@ const NewsFeed = () => {
   useEffect(() => {
     setPosts(data.postData);
   }, []);
+  
   return (
     <>
       {posts.map((e) => (
@@ -19,6 +20,7 @@ const NewsFeed = () => {
          time={e.time}
          caption={e.caption}
          img={e.img}
+         video= {e.video}
          initialLike={e.like}
          initialShare={e.share}
        />

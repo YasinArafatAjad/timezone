@@ -1,13 +1,54 @@
 {
     "postData":[
+        
+        {
+            "id" : 76,
+            "img":"",
+            "video" : "/public/assets/video/vid_03.mp4",
+
+            "caption": "Anonymouse Relation 💔❤️‍🩹",
+
+            "like": 24518,
+            "share":3124,
+            "time" : "29 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 75,
+            "img":"",
+            "video" : "/public/assets/video/vid_02.mp4",
+
+            "caption": "আমার মানচিত্রের নানান সীমান্তে🍁\nতোমার বসতি 🥀",
+
+            "like": 6547,
+            "share":2547,
+            "time" : "28 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 74,
+            "img":"",
+            "video" : "/public/assets/video/vid_01.mp4",
+
+            "caption": "To Mind Refresh is to keep calm",
+
+            "like": 58745,
+            "share":3547,
+            "time" : "27 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
         {
             "id" : 73,
             "img":"./assets/73.jpg",
+            "video" : "",
 
-            "caption": "ফুল নেয়া ভাল নয় মেয়ে।\nফুল নিলে ফুল দিতে হয়,\nফুলের মতন প্রাণ দিতে হয়।\nযারা ফুল নিয়ে যায়,\nযারা ফুল দিয়ে যায়,\nতারা ভুল দিয়ে যায়,\nতারা কুল নিয়ে যায়।",
+            "caption": "ফুল নেয়া ভাল নয় মেয়ে।\nফুল নিলে ফুল দিতে হয়,\nফুলের মতন প্রাণ দিতে হয়।\n\nযারা ফুল নিয়ে যায়,\nযারা ফুল দিয়ে যায়,\nতারা ভুল দিয়ে যায়,\nতারা কুল নিয়ে যায়।",
 
-            "like": 0,
-            "share":0,
+            "like": 68547,
+            "share":8745,
             "time" : "26 Oct 2024",
 
             "user" : "Yasin Arafat Ajad"
@@ -15,6 +56,7 @@
         {
             "id" : 72,
             "img":"./assets/72.jpg",
+            "video" : "",
 
             "caption": "আব্বা-আম্মার হাসি যেন\nফিরিয়ে দিতে পারি 🖤",
 
@@ -27,11 +69,12 @@
         {
             "id" : 71,
             "img":"./assets/71.jpg",
+            "video" : "",
 
             "caption": "আব্বুর আদর্শে গড়া 🌷😘",
 
             "like": 2547,
-            "share":0,
+            "share":269,
             "time" : "25 Oct 2024",
 
             "user" : "Yasin Arafat Ajad"
@@ -39,11 +82,12 @@
         {
             "id" : 70,
             "img":"./assets/70.jpg",
+            "video" : "",
 
             "caption": "People what think\nI don't care",
 
-            "like": 0,
-            "share":0,
+            "like": 4587,
+            "share":2547,
             "time" : "25 Oct 2024",
 
             "user" : "Yasin Arafat Ajad"
@@ -51,11 +95,12 @@
         {
             "id" : 69,
             "img":"./assets/69.jpg",
+            "video" : "",
 
             "caption": "জীবনের প্রতিটা মূহুর্ত থেকে \nনতুন করে গুছানো যায় ।",
 
-            "like": 0,
-            "share":0,
+            "like": 6587,
+            "share":4177,
             "time" : "24 Oct 2024",
 
             "user" : "Yasin Arafat Ajad"
@@ -63,6 +108,7 @@
         {
             "id" : 68,
             "img":"./assets/68.jpg",
+            "video" : "",
 
             "caption":"তুমি দৃষ্টির আড়ালে থাকা\nবকুল ফুল আমার",
 
@@ -75,6 +121,7 @@
         {
             "id" : 67,
             "img":"./assets/67.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -87,6 +134,7 @@
         {
             "id" : 66,
             "img":"./assets/66.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -99,6 +147,7 @@
         {
             "id" : 65,
             "img":"./assets/65.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -111,6 +160,7 @@
         {
             "id" : 64,
             "img":"./assets/64.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -123,6 +173,7 @@
         {
             "id" : 63,
             "img":"./assets/63.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -135,6 +186,7 @@
         {
             "id" : 62,
             "img":"./assets/62.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -147,6 +199,7 @@
         {
             "id" : 61,
             "img":"./assets/61.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -159,6 +212,7 @@
         {
             "id" : 60,
             "img":"./assets/60.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -171,6 +225,7 @@
         {
             "id" : 59,
             "img":"./assets/59.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -183,6 +238,7 @@
         {
             "id" : 58,
             "img":"./assets/58.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -195,6 +251,7 @@
         {
             "id" : 57,
             "img":"./assets/57.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -207,6 +264,7 @@
         {
             "id" : 56,
             "img":"./assets/56.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -219,6 +277,7 @@
         {
             "id" : 55,
             "img":"./assets/55.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -231,6 +290,7 @@
         {
             "id" : 54,
             "img":"./assets/54.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -243,6 +303,7 @@
         {
             "id" : 53,
             "img":"./assets/53.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -255,6 +316,7 @@
         {
             "id" : 52,
             "img":"./assets/52.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -267,6 +329,7 @@
         {
             "id" : 51,
             "img":"./assets/51.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -279,6 +342,7 @@
         {
             "id" : 50,
             "img":"./assets/50.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -291,6 +355,7 @@
         {
             "id" : 49,
             "img":"./assets/49.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -303,6 +368,7 @@
         {
             "id" : 48,
             "img":"./assets/48.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -315,6 +381,7 @@
         {
             "id" : 47,
             "img":"./assets/47.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -327,6 +394,7 @@
         {
             "id" : 46,
             "img":"./assets/46.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -339,6 +407,7 @@
         {
             "id" : 45,
             "img":"./assets/45.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -351,6 +420,7 @@
         {
             "id" : 44,
             "img":"./assets/44.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -363,6 +433,7 @@
         {
             "id" : 43,
             "img":"./assets/43.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -375,6 +446,7 @@
         {
             "id" : 42,
             "img":"./assets/42.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -387,6 +459,7 @@
         {
             "id" : 41,
             "img":"./assets/41.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -399,6 +472,7 @@
         {
             "id" : 40,
             "img":"./assets/40.png",
+            "video" : "",
 
             "caption":"",
 
@@ -411,6 +485,7 @@
         {
             "id" : 39,
             "img":"./assets/39.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -423,6 +498,7 @@
         {
             "id" : 38,
             "img":"./assets/38.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -435,6 +511,7 @@
         {
             "id" : 37,
             "img":"./assets/37.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -447,6 +524,7 @@
         {
             "id" : 36,
             "img":"./assets/36.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -459,6 +537,7 @@
         {
             "id" : 35,
             "img":"./assets/35.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -471,6 +550,7 @@
         {
             "id" : 34,
             "img":"./assets/34.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -483,6 +563,7 @@
         {
             "id" : 33,
             "img":"./assets/33.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -495,6 +576,7 @@
         {
             "id" : 32,
             "img":"./assets/32.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -507,6 +589,7 @@
         {
             "id" : 31,
             "img":"./assets/31.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -519,6 +602,7 @@
         {
             "id" : 30,
             "img":"./assets/30.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -531,6 +615,7 @@
         {
             "id" : 29,
             "img":"./assets/29.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -543,6 +628,7 @@
         {
             "id" : 28,
             "img":"./assets/28.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -555,6 +641,7 @@
         {
             "id" : 27,
             "img":"./assets/27.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -567,6 +654,7 @@
         {
             "id" : 26,
             "img":"./assets/26.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -579,6 +667,7 @@
         {
             "id" : 25,
             "img":"./assets/25.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -591,6 +680,7 @@
         {
             "id" : 24,
             "img":"./assets/24.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -603,6 +693,7 @@
         {
             "id" : 23,
             "img":"./assets/23.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -615,6 +706,7 @@
         {
             "id" : 22,
             "img":"./assets/22.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -627,6 +719,7 @@
         {
             "id" : 21,
             "img":"./assets/21.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -639,6 +732,7 @@
         {
             "id" : 20,
             "img":"./assets/20.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -651,6 +745,7 @@
         {
             "id" : 19,
             "img":"./assets/19.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -663,6 +758,7 @@
         {
             "id" : 18,
             "img":"./assets/18.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -675,6 +771,7 @@
         {
             "id" : 17,
             "img":"./assets/17.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -687,6 +784,7 @@
         {
             "id" : 16,
             "img":"./assets/16.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -699,6 +797,7 @@
         {
             "id" : 15,
             "img":"./assets/15.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -711,6 +810,7 @@
         {
             "id" : 14,
             "img":"./assets/14.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -723,6 +823,7 @@
         {
             "id" : 13,
             "img":"./assets/13.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -735,6 +836,7 @@
         {
             "id" : 12,
             "img":"./assets/12.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -747,6 +849,7 @@
         {
             "id" : 11,
             "img":"./assets/11.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -759,6 +862,7 @@
         {
             "id" : 10,
             "img":"./assets/10.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -771,6 +875,7 @@
         {
             "id" : 9,
             "img":"./assets/09.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -783,6 +888,7 @@
         {
             "id" : 8,
             "img":"./assets/08.jpg",
+            "video" : "",
 
             "caption":"",
 
@@ -795,6 +901,7 @@
         {
             "id" : 7,
             "img":"./assets/07.jpg",
+            "video" : "",
 
             "caption": "",
 
@@ -807,6 +914,7 @@
         {
             "id" : 6,
             "img":"./assets/06.jpg",
+            "video" : "",
 
             "caption": " smile :)",
 
@@ -819,6 +927,7 @@
         {
             "id" : 5,
             "img":"./assets/05.jpg",
+            "video" : "",
 
             "caption": "",
 
@@ -831,6 +940,7 @@
         {
             "id" : 4,
             "img":"./assets/04.jpg",
+            "video" : "",
 
             "caption": "",
 
@@ -843,6 +953,7 @@
         {
             "id" : 3,
             "img":"./assets/03.jpg",
+            "video" : "",
 
             "caption": "",
 
@@ -853,6 +964,7 @@
         {
             "id" : 2,
             "img":"./assets/02.jpg",
+            "video" : "",
 
             "caption":"মানুষের মতো বাচতে চাই ...",
             "like":364,
@@ -862,6 +974,7 @@
         {
             "id" : 1,
             "img":"./assets/01.jpg",
+            "video" : "",
 
             "caption":"স্বপ্ন আকাশ ছুয়া,বাস্তবতা শূন্য",
 
