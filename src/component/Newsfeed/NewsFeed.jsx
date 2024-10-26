@@ -20,7 +20,7 @@ const NewsFeed = () => {
          caption={e.caption}
          img={e.img}
          initialLike={e.like}
-         initiaShare={e.share}
+         initialShare={e.share}
        />
       ))}
     </>
