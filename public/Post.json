@@ -2,9 +2,9 @@
     "postData":[
         
         {
-            "id" : 76,
+            "id" : 77,
             "img":"",
-            "video" : "/public/assets/video/vid_03.mp4",
+            "video" : "/public/assets/76.jpg",
 
             "caption": "Anonymouse Relation 💔❤️‍🩹",
 
@@ -15,9 +15,9 @@
             "user" : "Yasin Arafat Ajad"
         },
         {
-            "id" : 75,
+            "id" : 76,
             "img":"",
-            "video" : "/public/assets/video/vid_02.mp4",
+            "video" : "/public/assets/75.jpg",
 
             "caption": "আমার মানচিত্রের নানান সীমান্তে🍁\nতোমার বসতি 🥀",
 
@@ -28,15 +28,28 @@
             "user" : "Yasin Arafat Ajad"
         },
         {
-            "id" : 74,
+            "id" : 75,
             "img":"",
-            "video" : "/public/assets/video/vid_01.mp4",
+            "video" : "/public/assets/74.jpg",
 
             "caption": "To Mind Refresh is to keep calm",
 
             "like": 58745,
             "share":3547,
             "time" : "27 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
+            "id" : 74,
+            "img":"./assets/74.jpg",
+            "video" : "",
+
+            "caption": "শুভ পয়দা দিবস বন্ধু",
+
+            "like": 3652,
+            "share":145,
+            "time" : "26 Oct 2024",
 
             "user" : "Yasin Arafat Ajad"
         },
