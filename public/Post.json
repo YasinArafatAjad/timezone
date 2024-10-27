@@ -3,8 +3,8 @@
         
         {
             "id" : 77,
-            "img":"",
-            "video" : "/public/assets/76.jpg",
+            "img":"/public/assets/76.jpg",
+            "video" : "",
 
             "caption": "Anonymouse Relation 💔❤️‍🩹",
 
@@ -16,8 +16,8 @@
         },
         {
             "id" : 76,
-            "img":"",
-            "video" : "/public/assets/75.jpg",
+            "img":"/public/assets/75.jpg",
+            "video" : "",
 
             "caption": "আমার মানচিত্রের নানান সীমান্তে🍁\nতোমার বসতি 🥀",
 
@@ -29,8 +29,8 @@
         },
         {
             "id" : 75,
-            "img":"",
-            "video" : "/public/assets/74.jpg",
+            "img":"/public/assets/74.jpg",
+            "video" : "",
 
             "caption": "To Mind Refresh is to keep calm",
 
