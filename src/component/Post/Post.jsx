@@ -70,7 +70,7 @@ const Post = ({
                     <img
                       src={userImg}
                       alt="user image"
-                      className="h-full w-[100vh] mt-4"
+                      className="h-full w-full mt-4 rounded-xl border shadow-md"
                     />
                   </div>
                 </dialog>
