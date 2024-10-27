@@ -7,8 +7,18 @@ import { FaHeart, FaRegHeart } from "react-icons/fa";
 import { IoIosMore, IoMdShare } from "react-icons/io";
 import { useState } from "react";
 import LinesEllipsis from "react-lines-ellipsis";
+import { Button } from "keep-react";
 
-const Post = ({ id, user, time, img, video, caption, initialLike, initialShare }) => {
+const Post = ({
+  id,
+  user,
+  time,
+  img,
+  video,
+  caption,
+  initialLike,
+  initialShare,
+}) => {
   // handle like
   const [likes, setLikes] = useState(initialLike);
   const [isLiked, setIsLiked] = useState(true);
@@ -38,11 +48,33 @@ const Post = ({ id, user, time, img, video, caption, initialLike, initialShare }
           <div className="row">
             <div className="col user_panel flex items-center justify-between px-5">
               <div className="post_userPanel_wrapper flex gap-2 items-center">
-                <img
-                  className="userImg h-10 w-10 rounded-full border-2 border-solid border-slate-400"
-                  src={userImg}
-                  alt="userImg"
-                />
+                {/* user img */}
+                <div
+                  onClick={() =>
+                    document.getElementById("userImgVew").showModal()
+                  }
+                  className="avatar online "
+                >
+                  <div className="w-12 rounded-full ring-slate-400 ring-offset-base-100 ring-2 ring-offset-1">
+                    <img src={userImg} />
+                  </div>
+                </div>
+                {/* user img vewer */}
+                <dialog id="userImgVew" className="modal">
+                  <div className="modal-box">
+                    <form method="dialog">
+                      <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                        ✕
+                      </button>
+                    </form>
+                    <img
+                      src={userImg}
+                      alt="user image"
+                      className="h-full w-[100vh] mt-4"
+                    />
+                  </div>
+                </dialog>
+                  {/* user name */}
                 <div className="post_userName_wrapper">
                   <h4 className="userName font-bold flex gap-1 items-center">
                     {user} <MdVerified className="text-[#228BE6]" />
@@ -50,6 +82,7 @@ const Post = ({ id, user, time, img, video, caption, initialLike, initialShare }
                   <p className="post_Time text-xs text-slate-600">{time}</p>
                 </div>
               </div>
+              {/* more btn */}
               <IoIosMore />
             </div>
             <div className="col content_panel">
@@ -75,7 +108,7 @@ const Post = ({ id, user, time, img, video, caption, initialLike, initialShare }
                     />
                   </div>
                 )}
-                 {video ? ( // Conditional rendering for video
+                {video ? ( // Conditional rendering for video
                   <video
                     className="mt-3 rounded-xl border shadow-md max-h-[80vh]"
                     controls
