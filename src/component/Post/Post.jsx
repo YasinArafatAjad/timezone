@@ -63,7 +63,7 @@ const Post = ({
                 <dialog id="userImgVew" className="modal">
                   <div className="modal-box">
                     <form method="dialog">
-                      <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                      <button className="btn btn-md btn-circle btn-ghost absolute right-0 -top-1 outline-none">
                         ✕
                       </button>
                     </form>
