@@ -74,16 +74,20 @@ const Post = ({
                     />
                   </div>
                 </dialog>
-                  {/* user name */}
+                {/* user name */}
                 <div className="post_userName_wrapper">
                   <h4 className="userName font-bold flex gap-1 items-center">
-                    {user} <MdVerified className="text-[#228BE6]" />
+                    {user}{" "}
+                    <MdVerified
+                      title="verified user"
+                      className="text-[#228BE6]"
+                    />
                   </h4>
                   <p className="post_Time text-xs text-slate-600">{time}</p>
                 </div>
               </div>
               {/* more btn */}
-              <IoIosMore />
+              <IoIosMore title="More"/>
             </div>
             <div className="col content_panel">
               <div className="content flex flex-col justify-center">
