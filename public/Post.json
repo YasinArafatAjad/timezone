@@ -1,6 +1,18 @@
 {
     "postData":[
         {
+            "id" : 79,
+            "img":"./assets/79.jpeg",
+            "video" : "",
+
+            "caption": "চোখ আর চেহারা কি মিথ্যা বলতে পারে? ",
+            "like": 63537,
+            "share":4567,
+            "time" : "30 Oct 2024",
+
+            "user" : "Yasin Arafat Ajad"
+        },
+        {
             "id" : 78,
             "img":"./assets/78.jpg",
             "video" : "",
