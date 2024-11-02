@@ -1,6 +1,18 @@
 {
   "postData": [
     {
+        "id": 81,
+        "img": "./assets/81.jpg",
+        "video": "",
+  
+        "caption" :" ",
+        "like": 6585,
+        "share": 3556,
+        "time": "01 Nov 2024",
+  
+        "user": "Yasin Arafat Ajad"
+      },
+      {
       "id": 80,
       "img": "./assets/80.jpg",
       "video": "",
