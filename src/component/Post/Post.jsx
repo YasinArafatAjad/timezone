@@ -1,7 +1,7 @@
 // /* eslint-disable no-unused-vars */
 // /* eslint-disable react/jsx-key */
 import "./Post.css";
-import userImg from "../../../public/assets/pic1.jpg";
+import userImg from "../../../public/../../../public/profile.jpg";
 import { MdVerified } from "react-icons/md";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
 import { IoIosMore, IoMdShare } from "react-icons/io";
