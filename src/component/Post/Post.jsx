@@ -48,52 +48,23 @@ const Post = ({
             <div className="col user_panel flex items-center justify-between px-5">
               <div className="post_userPanel_wrapper flex gap-2 items-center">
                 {/* user img */}
-                {/*
-                {/* user img vewer /}
-                <dialog id="userImgVew" className="modal">
-                  <div className="modal-box">
-                    <form method="dialog">
-                      <button className="btn btn-md btn-circle btn-ghost absolute right-0 -top-1 outline-none">
-                        ✕
-                      </button>
-                    </form>
-                    <img
-                      src={userImg}
-                      alt="user image"
-                      className="h-full w-full mt-4 rounded-xl border shadow-md"
-                    />
-                  </div>
-                </dialog> */}
-
-                {/* The button to open modal */}
-                <label htmlFor="userImg" >
+                <label htmlFor="userImg">
                   <div className="avatar online ">
                     <div className="w-12 rounded-full ring-slate-400 ring-offset-base-100 ring-2 ring-offset-1">
                       <img src={userImg} />
                     </div>
                   </div>
                 </label>
-
                 {/* expanded userImg*/}
-                <input
-                  type="checkbox"
-                  id="userImg"
-                  className="modal-toggle"
-                />
+                <input type="checkbox" id="userImg" className="modal-toggle" />
                 <div className="modal" role="dialog">
                   <div className="modal-box">
                     <img src={userImg} alt="userImg" />
-
-
-                    
-
-
                   </div>
                   <label className="modal-backdrop" htmlFor="userImg">
                     Close
                   </label>
                 </div>
-
                 {/* user name */}
                 <div className="post_userName_wrapper">
                   <h4 className="userName font-bold flex gap-1 items-center  dark:text-[#fbfcfc]">
