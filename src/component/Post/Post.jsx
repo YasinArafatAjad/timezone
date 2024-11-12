@@ -40,13 +40,12 @@ const Post = ({
   // Line ellipsis
   const [ellipsis, setEllipsis] = useState(false);
   const handleEllipsis = () => setEllipsis(!ellipsis);
-// Reaction number format
-function formatNumber(num) {
-  if (num >= 1e6) return (num / 1e6).toFixed(1) + "M";
-  if (num >= 1e3) return (num / 1e3).toFixed(1) + "K";
-  return num.toString();
-}
-
+  // Reaction number format
+  function formatNumber(num) {
+    if (num >= 1e6) return (num / 1e6).toFixed(1) + "M";
+    if (num >= 1e3) return (num / 1e3).toFixed(1) + "K";
+    return num.toString();
+  }
 
   return (
     <>
@@ -83,21 +82,37 @@ function formatNumber(num) {
                     />
                   </h4>
                   <div className="timeSection flex gap-1 items-center">
-                  <p className="post_Time text-xs text-slate-600  dark:text-[#fbfcfc]">
-                    {date}
-                  </p>
-                  <span className="-mt-1">|</span>
-                  <p className="post_Time text-xs text-slate-600  dark:text-[#fbfcfc]">
-                    {time}
-                  </p>
+                    <p className="post_Time text-xs text-slate-600  dark:text-[#fbfcfc]">
+                      {date}
+                    </p>
+                    <span className="-mt-1">|</span>
+                    <p className="post_Time text-xs text-slate-600  dark:text-[#fbfcfc]">
+                      {time}
+                    </p>
                   </div>
                 </div>
               </div>
               {/* more btn */}
-              <IoIosMore
+              <div className="dropdown dropdown-left">
+                <div tabIndex={0} role="button" className="btn m-1">
+                <IoIosMore
                 className="dark:text-white font-bold text-3xl"
                 title="More"
               />
+                </div>
+                <ul
+                  tabIndex={0}
+                  className="dropdown-content menu bg-base-100 dark:bg-slate-200 dark:text-slate-700 rounded-box z-[1] w-52 p-2 shadow"
+                >
+                  <li>
+                    <a>View Post</a>
+                  </li>
+                  <li>
+                    <a>Copy Link</a>
+                  </li>
+                </ul>
+              </div>
+              
             </div>
             <div className="col content_panel">
               <div className="content flex flex-col justify-center">
@@ -139,7 +154,7 @@ function formatNumber(num) {
               </div>
             </div>
             <div className="col reaction_panel pt-5 flex justify-between px-10 pb-5">
-              <p className="share flex items-center gap-1 text-2xl text-slate-600 ">
+              <p className="share flex items-center gap-1 text-2xl text-slate-600 dark:text-white">
                 <span onClick={handleLikeClick}>
                   {isLiked ? (
                     <FaRegHeart className="" />
@@ -147,13 +162,17 @@ function formatNumber(num) {
                     <FaHeart className="text-[#ff0000]" />
                   )}
                 </span>
-                <span className="text-base text-slate-400">{formatNumber(likes)}</span>
+                <span className="text-base text-slate-400 dark:text-white">
+                  &nbsp;{formatNumber(likes)}
+                </span>
               </p>
-              <p className="share flex items-center gap-1 text-2xl text-slate-600">
+              <p className="share flex items-center gap-1 text-2xl text-slate-600 dark:text-white">
                 <span>
                   <IoMdShare onClick={handleShareClick} />
                 </span>
-                <span className="text-base text-slate-400">{formatNumber(share)}</span>
+                <span className="text-base text-slate-400 dark:text-white">
+                &nbsp;{formatNumber(share)}
+                </span>
               </p>
             </div>
           </div>
