@@ -1,7 +1,7 @@
 // /* eslint-disable no-unused-vars */
 // /* eslint-disable react/jsx-key */
 import "./Post.css";
-import userImg from '../../../public/user.jpg';
+import userImg from "../../../public/user.jpg";
 import { MdVerified } from "react-icons/md";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
 import { IoIosMore, IoMdShare } from "react-icons/io";
@@ -48,17 +48,8 @@ const Post = ({
             <div className="col user_panel flex items-center justify-between px-5">
               <div className="post_userPanel_wrapper flex gap-2 items-center">
                 {/* user img */}
-                <div
-                  onClick={() =>
-                    document.getElementById("userImgVew").showModal()
-                  }
-                  className="avatar online "
-                >
-                  <div className="w-12 rounded-full ring-slate-400 ring-offset-base-100 ring-2 ring-offset-1">
-                    <img src={userImg} />
-                  </div>
-                </div>
-                {/* user img vewer */}
+                {/*
+                {/* user img vewer /}
                 <dialog id="userImgVew" className="modal">
                   <div className="modal-box">
                     <form method="dialog">
@@ -72,7 +63,37 @@ const Post = ({
                       className="h-full w-full mt-4 rounded-xl border shadow-md"
                     />
                   </div>
-                </dialog>
+                </dialog> */}
+
+                {/* The button to open modal */}
+                <label htmlFor="userImg" >
+                  <div className="avatar online ">
+                    <div className="w-12 rounded-full ring-slate-400 ring-offset-base-100 ring-2 ring-offset-1">
+                      <img src={userImg} />
+                    </div>
+                  </div>
+                </label>
+
+                {/* expanded userImg*/}
+                <input
+                  type="checkbox"
+                  id="userImg"
+                  className="modal-toggle"
+                />
+                <div className="modal" role="dialog">
+                  <div className="modal-box">
+                    <img src={userImg} alt="userImg" />
+
+
+                    
+
+
+                  </div>
+                  <label className="modal-backdrop" htmlFor="userImg">
+                    Close
+                  </label>
+                </div>
+
                 {/* user name */}
                 <div className="post_userName_wrapper">
                   <h4 className="userName font-bold flex gap-1 items-center  dark:text-[#fbfcfc]">
@@ -82,11 +103,16 @@ const Post = ({
                       className="text-[#228BE6]"
                     />
                   </h4>
-                  <p className="post_Time text-xs text-slate-600  dark:text-[#fbfcfc]">{time}</p>
+                  <p className="post_Time text-xs text-slate-600  dark:text-[#fbfcfc]">
+                    {time}
+                  </p>
                 </div>
               </div>
               {/* more btn */}
-              <IoIosMore className="dark:text-white font-bold text-3xl"  title="More"/>
+              <IoIosMore
+                className="dark:text-white font-bold text-3xl"
+                title="More"
+              />
             </div>
             <div className="col content_panel">
               <div className="content flex flex-col justify-center">
@@ -131,7 +157,7 @@ const Post = ({
               <p className="share flex items-center gap-1 text-2xl text-slate-600 ">
                 <span onClick={handleLikeClick}>
                   {isLiked ? (
-                    <FaRegHeart  className=""/>
+                    <FaRegHeart className="" />
                   ) : (
                     <FaHeart className="text-[#ff0000]" />
                   )}
