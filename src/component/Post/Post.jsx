@@ -75,32 +75,32 @@ const Post = ({
                 </dialog>
                 {/* user name */}
                 <div className="post_userName_wrapper">
-                  <h4 className="userName font-bold flex gap-1 items-center">
+                  <h4 className="userName font-bold flex gap-1 items-center  dark:text-[#fbfcfc]">
                     {user}{" "}
                     <MdVerified
                       title="verified user"
                       className="text-[#228BE6]"
                     />
                   </h4>
-                  <p className="post_Time text-xs text-slate-600">{time}</p>
+                  <p className="post_Time text-xs text-slate-600  dark:text-[#fbfcfc]">{time}</p>
                 </div>
               </div>
               {/* more btn */}
-              <IoIosMore title="More"/>
+              <IoIosMore  title="More"/>
             </div>
             <div className="col content_panel">
               <div className="content flex flex-col justify-center">
                 {ellipsis ? (
                   <p
                     onClick={handleEllipsis}
-                    className="cursor-pointer caption whitespace-pre pt-5 pl-5 text-sm text-slate-700"
+                    className="cursor-pointer caption whitespace-pre pt-5 pl-5 text-sm text-slate-700 dark:text-[#fbfcfc]"
                   >
                     {caption}
                   </p>
                 ) : (
                   <div
                     onClick={handleEllipsis}
-                    className="cursor-pointer caption whitespace-pre pt-5 pl-5 text-sm text-slate-700"
+                    className="cursor-pointer caption whitespace-pre pt-5 pl-5 text-sm text-slate-700 dark:text-[#fbfcfc]"
                   >
                     <LinesEllipsis
                       text={caption}
