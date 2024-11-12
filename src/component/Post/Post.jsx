@@ -7,7 +7,6 @@ import { FaHeart, FaRegHeart } from "react-icons/fa";
 import { IoIosMore, IoMdShare } from "react-icons/io";
 import { useState } from "react";
 import LinesEllipsis from "react-lines-ellipsis";
-import { Button } from "keep-react";
 
 const Post = ({
   id,
