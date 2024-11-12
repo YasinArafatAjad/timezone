@@ -86,7 +86,7 @@ const Post = ({
                 </div>
               </div>
               {/* more btn */}
-              <IoIosMore  title="More"/>
+              <IoIosMore className="text-white font-bold text-3xl"  title="More"/>
             </div>
             <div className="col content_panel">
               <div className="content flex flex-col justify-center">
