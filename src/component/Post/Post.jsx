@@ -40,6 +40,13 @@ const Post = ({
   // Line ellipsis
   const [ellipsis, setEllipsis] = useState(false);
   const handleEllipsis = () => setEllipsis(!ellipsis);
+// Reaction number format
+function formatNumber(num) {
+  if (num >= 1e6) return (num / 1e6).toFixed(1) + "M";
+  if (num >= 1e3) return (num / 1e3).toFixed(1) + "K";
+  return num.toString();
+}
+
 
   return (
     <>
@@ -140,13 +147,13 @@ const Post = ({
                     <FaHeart className="text-[#ff0000]" />
                   )}
                 </span>
-                <span className="text-base text-slate-400">{likes}</span>
+                <span className="text-base text-slate-400">{formatNumber(likes)}</span>
               </p>
               <p className="share flex items-center gap-1 text-2xl text-slate-600">
                 <span>
                   <IoMdShare onClick={handleShareClick} />
                 </span>
-                <span className="text-base text-slate-400">{share}</span>
+                <span className="text-base text-slate-400">{formatNumber(share)}</span>
               </p>
             </div>
           </div>
