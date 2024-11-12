@@ -128,10 +128,10 @@ const Post = ({
               </div>
             </div>
             <div className="col reaction_panel pt-5 flex justify-between px-10 pb-5">
-              <p className="share flex items-center gap-1 text-2xl text-slate-600">
+              <p className="share flex items-center gap-1 text-2xl text-slate-600 ">
                 <span onClick={handleLikeClick}>
                   {isLiked ? (
-                    <FaRegHeart />
+                    <FaRegHeart  className=""/>
                   ) : (
                     <FaHeart className="text-[#ff0000]" />
                   )}
