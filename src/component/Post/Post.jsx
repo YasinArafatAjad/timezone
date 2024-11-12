@@ -11,6 +11,7 @@ import LinesEllipsis from "react-lines-ellipsis";
 const Post = ({
   id,
   user,
+  date,
   time,
   img,
   video,
@@ -74,9 +75,15 @@ const Post = ({
                       className="text-[#228BE6]"
                     />
                   </h4>
+                  <div className="timeSection flex gap-1 items-center">
+                  <p className="post_Time text-xs text-slate-600  dark:text-[#fbfcfc]">
+                    {date}
+                  </p>
+                  <span className="-mt-1">|</span>
                   <p className="post_Time text-xs text-slate-600  dark:text-[#fbfcfc]">
                     {time}
                   </p>
+                  </div>
                 </div>
               </div>
               {/* more btn */}

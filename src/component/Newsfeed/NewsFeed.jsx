@@ -17,6 +17,7 @@ const NewsFeed = () => {
          key={e.id}
          id={e.id}
          user={e.user}
+         date={e.date}
          time={e.time}
          caption={e.caption}
          img={e.img}
