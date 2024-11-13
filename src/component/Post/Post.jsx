@@ -46,6 +46,18 @@ const Post = ({
     if (num >= 1e3) return (num / 1e3).toFixed(1) + "K";
     return num.toString();
   }
+// Copy Link Handle
+// const copyLink = () => {
+//   navigator.clipboard.writeText("timezone-seven.vercel.app")
+//     .then(() => {
+//       document.querySelectorAll('.copy')[0].innerHTML = 'Copied';
+//       // alert("Text copied to clipboard!");
+//     })
+//     .catch((error) => {
+//       console.error("Copy failed!", error);
+//     });
+// };
+
 
   return (
     <>
@@ -97,7 +109,7 @@ const Post = ({
                 <div tabIndex={0} role="button" className="btn m-1">
                 <IoIosMore
                 className="dark:text-white font-bold text-3xl"
-                title="More"
+                title="More" 
               />
                 </div>
                 <ul
