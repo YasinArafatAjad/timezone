@@ -1,6 +1,20 @@
 {
     "postData": [
       {
+                "id": 86,
+                        "img": "./assets/86.jpg",
+                                "video": "",
+                                        
+                                                "caption": "আমি যতটুকু প্রকাশ করি\nততটুকুর নাম প্রেম\nআর যতটুকু আমার মধ্যেই থেকে যায়\nতার নাম ভালোবাসা",
+                                                         "like": 9646 ,
+                                                                 "share": 2365,
+                                                                         "date": "19 Nov 2024",
+                                                                                 "time": "09:57 AM",
+                                                                                   
+                                                                                           "user": "Yasin Arafat Ajad"
+                                                                                                 },
+      
+      {
         "id": 85,
         "img": "./assets/85.jpg",
         "video": "",
