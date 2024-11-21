@@ -169,12 +169,12 @@ const Post = ({
               <p className="share flex items-center gap-1 text-2xl text-slate-600 dark:text-white">
                 <span onClick={handleLikeClick}>
                   {isLiked ? (
-                    <FaRegHeart className="" />
+                    <FaRegHeart id="react" className="" />
                   ) : (
-                    <FaHeart className="text-[#ff0000]" />
+                    <FaHeart id="react" className="text-[#ff0000]" />
                   )}
                 </span>
-                <span className="text-base text-slate-400 dark:text-white">
+                <span htmlFor="react" className="text-base text-slate-400 dark:text-white">
                   &nbsp;{formatNumber(likes)}
                 </span>
               </p>
