@@ -46,18 +46,17 @@ const Post = ({
     if (num >= 1e3) return (num / 1e3).toFixed(1) + "K";
     return num.toString();
   }
-// Copy Link Handle
-// const copyLink = () => {
-//   navigator.clipboard.writeText("timezone-seven.vercel.app")
-//     .then(() => {
-//       document.querySelectorAll('.copy')[0].innerHTML = 'Copied';
-//       // alert("Text copied to clipboard!");
-//     })
-//     .catch((error) => {
-//       console.error("Copy failed!", error);
-//     });
-// };
-
+  // Copy Link Handle
+  const handleCopyLink = () => {
+    navigator.clipboard
+      .writeText("timezone-seven.vercel.app")
+      .then(() => {
+        alert("Text copied to clipboard!");
+      })
+      .catch((error) => {
+        console.error("Copy failed!", error);
+      });
+  };
 
   return (
     <>
@@ -107,10 +106,11 @@ const Post = ({
               {/* more btn */}
               <div className="dropdown dropdown-left">
                 <div tabIndex={0} role="button" className="btn m-1">
-                <IoIosMore
-                className="dark:text-white font-bold text-3xl"
-                title="More" 
-              />
+                  <IoIosMore
+                    className="dark:text-white font-bold text-3xl"
+                    title="More"
+                    onClick={handleCopyLink}
+                  />
                 </div>
                 <ul
                   tabIndex={0}
@@ -124,7 +124,6 @@ const Post = ({
                   </li>
                 </ul>
               </div>
-              
             </div>
             <div className="col content_panel">
               <div className="content flex flex-col justify-center">
@@ -174,7 +173,10 @@ const Post = ({
                     <FaHeart id="react" className="text-[#ff0000]" />
                   )}
                 </span>
-                <span htmlFor="react" className="text-base text-slate-400 dark:text-white">
+                <span
+                  htmlFor="react"
+                  className="text-base text-slate-400 dark:text-white"
+                >
                   &nbsp;{formatNumber(likes)}
                 </span>
               </p>
@@ -183,7 +185,7 @@ const Post = ({
                   <IoMdShare onClick={handleShareClick} />
                 </span>
                 <span className="text-base text-slate-400 dark:text-white">
-                &nbsp;{formatNumber(share)}
+                  &nbsp;{formatNumber(share)}
                 </span>
               </p>
             </div>
