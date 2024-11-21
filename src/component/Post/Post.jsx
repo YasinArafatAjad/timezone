@@ -109,7 +109,6 @@ const Post = ({
                   <IoIosMore
                     className="dark:text-white font-bold text-3xl"
                     title="More"
-                    onClick={handleCopyLink}
                   />
                 </div>
                 <ul
@@ -120,7 +119,7 @@ const Post = ({
                     <a>View Post</a>
                   </li>
                   <li>
-                    <a>Copy Link</a>
+                    <a onClick={handleCopyLink}>Copy Link</a>
                   </li>
                 </ul>
               </div>
