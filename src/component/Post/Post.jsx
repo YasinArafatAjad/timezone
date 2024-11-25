@@ -125,7 +125,7 @@ const Post = ({
               </div>
             </div>
             <div className="col content_panel">
-              <div className="content flex flex-col justify-center">
+              <div className="content text-wrapped flex flex-col justify-center">
                 {ellipsis ? (
                   <p
                     onClick={handleEllipsis}
