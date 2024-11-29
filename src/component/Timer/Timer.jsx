@@ -6,9 +6,8 @@ const Timer = () => {
   return (
     <div>
       <h1 className="text-center py-2 text-[#fff]">
-        Its going to happen A big change here.
+        It's going to happen A big change here.
       </h1>
-
       <FlipClockCountdown
         to={"2024/12/07"}
         labels={["DAYS", "HOURS", "MINUTES", "SECONDS"]}
@@ -17,7 +16,7 @@ const Timer = () => {
           fontWeight: 500,
           textTransform: "uppercase",
         }}
-        digitBlockStyle={{ width: 40, height: 60, fontSize: 30 }}
+        digitBlockStyle={{ width: 40, height: 60, fontSize: 30,background:'#323232' }}
         dividerStyle={{ color: "white", height: 1 }}
         separatorStyle={{ color: "red", size: "5px" }}
         showSeparators={false}      
