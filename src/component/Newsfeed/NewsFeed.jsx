@@ -2,9 +2,10 @@ import "./NewsFeed.css";
 import Post from "./../Post/Post.jsx";
 import { useEffect, useState } from "react";
 import data from "../../../public/Post.json";
+import Timer  from "../Timer/Timer.jsx";
 // import { Link } from "react-router-dom";
-import '../Timer/Timer.js';
-import '../Timer/Timer.css';
+// import '../Timer/Timer.js';
+// import '../Timer/Timer.css';
 
 const NewsFeed = () => {
   const [posts, setPosts] = useState([]);
@@ -18,8 +19,9 @@ const NewsFeed = () => {
       <div className="container">
         <div className="notice border mb-4">
           <div className="timer">
-          <h1 className="text-center"> Its going to happen A big change here.</h1>
-          <div id="flip_timer"></div>
+          {/* <h1 className="text-center"> Its going to happen A big change here.</h1> */}
+          {/* <div id="flip_timer"></div> */}
+          <Timer />
           </div>
         </div>
       </div>
