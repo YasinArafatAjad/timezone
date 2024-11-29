@@ -3,6 +3,8 @@ import Post from "./../Post/Post.jsx";
 import { useEffect, useState } from "react";
 import data from "../../../public/Post.json";
 // import { Link } from "react-router-dom";
+import '../Timer/Timer.js';
+import '../Timer/Timer.css';
 
 const NewsFeed = () => {
   const [posts, setPosts] = useState([]);
@@ -13,20 +15,29 @@ const NewsFeed = () => {
 
   return (
     <>
+      <div className="container">
+        <div className="notice border mb-4">
+          <div className="timer">
+          <h1 className="text-center"> It's going to happen A big change here.</h1>
+          <div id="flip_timer"></div>
+          </div>
+        </div>
+      </div>
+
       {posts.map((e) => (
         <div key={e.id}>
           {/* <Link to={`/post/${e.id}`}> */}
-            <Post
-              id={e.id}
-              user={e.user}
-              date={e.date}
-              time={e.time}
-              caption={e.caption}
-              img={e.img}
-              video={e.video}
-              initialLike={e.like}
-              initialShare={e.share}
-            />
+          <Post
+            id={e.id}
+            user={e.user}
+            date={e.date}
+            time={e.time}
+            caption={e.caption}
+            img={e.img}
+            video={e.video}
+            initialLike={e.like}
+            initialShare={e.share}
+          />
           {/* </Link> */}
         </div>
       ))}
