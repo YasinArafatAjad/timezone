@@ -13,16 +13,14 @@ const Timer = () => {
         to={"2024/12/07"}
         labels={["DAYS", "HOURS", "MINUTES", "SECONDS"]}
         labelStyle={{
-          fontSize: 10,
+          fontSize: '0.8rem',
           fontWeight: 500,
           textTransform: "uppercase",
         }}
         digitBlockStyle={{ width: 40, height: 60, fontSize: 30 }}
         dividerStyle={{ color: "white", height: 1 }}
         separatorStyle={{ color: "red", size: "5px" }}
-        showSeparators={false}
-        labelStyle={{ fontSize: "0.8rem" }}
-        
+        showSeparators={false}      
         duration={0.5}
       >
         Finished
