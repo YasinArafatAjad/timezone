@@ -7,6 +7,8 @@ import { FaHeart, FaRegHeart } from "react-icons/fa";
 import { IoIosMore, IoMdShare } from "react-icons/io";
 import { useState } from "react";
 import LinesEllipsis from "react-lines-ellipsis";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Post = ({
   id,
@@ -155,10 +157,11 @@ const Post = ({
                     alt={`Post ${id}`}
                   />
                 ) : (
-                  <img
-                    className="mt-3 rounded-xl border shadow-md"
+                  <LazyLoadImage
+                    effect="blur"
                     src={img}
                     alt={`Post ${id}`}
+                    className="mt-3 rounded-xl border shadow-md"
                   />
                 )}
               </div>

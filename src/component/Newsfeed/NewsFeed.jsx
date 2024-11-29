@@ -19,8 +19,6 @@ const NewsFeed = () => {
       <div className="container">
         <div className="notice border mb-4">
           <div className="timer">
-          {/* <h1 className="text-center"> Its going to happen A big change here.</h1> */}
-          {/* <div id="flip_timer"></div> */}
           <Timer />
           </div>
         </div>
