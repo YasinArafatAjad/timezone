@@ -71,7 +71,7 @@ const Post = ({
                 <label htmlFor="userImg">
                   <div className="avatar online ">
                     <div className="w-12 rounded-full ring-slate-400 ring-offset-base-100 ring-2 ring-offset-1">
-                      <img src={userImg} />
+                      <LazyLoadImage effect="blur" to={userImg} alt="userImg" />
                     </div>
                   </div>
                 </label>
@@ -79,7 +79,7 @@ const Post = ({
                 <input type="checkbox" id="userImg" className="modal-toggle" />
                 <div className="modal" role="dialog">
                   <div className="modal-box">
-                    <img src={userImg} alt="userImg" />
+                    <LazyLoadImage effect="blur" to={userImg} alt="userImg" />
                   </div>
                   <label className="modal-backdrop" htmlFor="userImg">
                     Close

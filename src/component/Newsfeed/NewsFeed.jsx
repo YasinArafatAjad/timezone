@@ -2,14 +2,13 @@ import "./NewsFeed.css";
 import Post from "./../Post/Post.jsx";
 import { useEffect, useState } from "react";
 import data from "../../../public/Post.json";
-import Timer  from "../Timer/Timer.jsx";
+import Timer from "../Timer/Timer.jsx";
 // import { Link } from "react-router-dom";
 // import '../Timer/Timer.js';
 // import '../Timer/Timer.css';
 
 const NewsFeed = () => {
   const [posts, setPosts] = useState([]);
-
   useEffect(() => {
     setPosts(data.postData);
   }, []);
@@ -19,7 +18,7 @@ const NewsFeed = () => {
       <div className="container">
         <div className="notice border mb-4">
           <div className="timer">
-          <Timer />
+            <Timer />
           </div>
         </div>
       </div>
