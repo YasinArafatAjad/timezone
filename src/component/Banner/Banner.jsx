@@ -7,7 +7,7 @@ const Banner = () => {
       <section id="header" className="bg-[#EF9F9F] mb-2">
         <div className="container">
           <div className="row">
-            <div className="col pt-4 pb-12 px-2 flex flex-col gap-y-6  justify-center items-center">
+            <div className="col pt-4 pb-12 px-2 flex  justify-center items-center">
               <div className="logo-icon">
                 <svg
                   version="1.0"
@@ -28,11 +28,11 @@ const Banner = () => {
                   </g>
                 </svg>
               </div>
-              <div className="logo-txt relative  flex justify-center items-center h-full w-full">
-                <p className="absolute  text-4xl text-transparent font-ff font-bold tranlate-x-1/2 tranlate-y-1/2">
+              <div className="logo-txt relative  flex justify-center items-center h-full w-full border">
+                <p className="absolute  text-4xl text-transparent  font-bold tranlate-x-1/2 tranlate-y-1/2">
                   Time&nbsp;Zone
                 </p>
-                <p className="absolute  text-4xl text-transparent font-ff font-bold tranlate-x-1/2 tranlate-y-1/2">
+                <p className="absolute  text-4xl text-transparent font-bold tranlate-x-1/2 tranlate-y-1/2">
                   Time&nbsp;Zone
                 </p>
               </div>
