@@ -131,14 +131,14 @@ const Post = ({
                 {ellipsis ? (
                   <p
                     onClick={handleEllipsis}
-                    className="cursor-pointer caption whitespace-pre pt-5 pl-5 text-sm text-slate-700 dark:text-[#fbfcfc]"
+                    className="cursor-pointer caption text-wrap whitespace-pre pt-5 pl-5 text-sm text-slate-700 dark:text-[#fbfcfc]"
                   >
                     {caption}
                   </p>
                 ) : (
                   <div
                     onClick={handleEllipsis}
-                    className="cursor-pointer caption whitespace-pre pt-5 pl-5 text-sm text-slate-700 dark:text-[#fbfcfc]"
+                    className="cursor-pointer caption text-wrap whitespace-pre pt-5 pl-5 text-sm text-slate-700 dark:text-[#fbfcfc]"
                   >
                     <LinesEllipsis
                       text={caption}

@@ -17,9 +17,7 @@ const NewsFeed = () => {
     <>
       <div className="container">
         <div className="notice border mb-4">
-          <div className="timer">
-            <Timer />
-          </div>
+          <Timer />
         </div>
       </div>
 
