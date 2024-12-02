@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import "./Timer.css";
 import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
 import "@leenguyen/react-flip-clock-countdown/dist/index.css";

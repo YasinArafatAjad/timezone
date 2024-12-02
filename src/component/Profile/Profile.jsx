@@ -16,6 +16,22 @@ const Profile = () => {
   useEffect(() => {
     setPosts(data.postData);
   }, []);
+  // Total post from last ID
+  const totalPost = data.postData[0]?.id;
+  // max follower
+  const follower = Math.max(...data.postData.map(e => e.like));
+
+  // handlefollowClick
+  const [follow, setFollow] = useState(false);
+  const handlefollowClick = () => {
+    setFollow(!follow);
+  };
+  // number format
+  function formatNumber(num) {
+    if (num >= 1e6) return (num / 1e6).toFixed(1) + "M";
+    if (num >= 1e3) return (num / 1e3).toFixed(1) + "K";
+    return num.toString();
+  }
 
   return (
     <>
@@ -73,21 +89,36 @@ const Profile = () => {
           </div>
         </div>
         <div className="connectSection flex justify-center items-center gap-6 pb-4">
-          <button className="btn btn-ghost border text-white border-[#fbfcfc] rounded-full h-fit px-6">
-            <TbMessageDots size={25} />
-            Message
-          </button>
-          <button className="btn btn-error rounded-full h-fit px-8">
-            Follow
-          </button>
+          <a href="mailto:yasinarafatazad173@gmail.com" target="_blank">
+            <button className="btn btn-ghost border border-[#323232] dark:border-[#fbfcfc] text-[#323232] dark:text-white  rounded-full h-fit px-6">
+              <TbMessageDots size={25} />
+              Message
+            </button>{" "}
+          </a>
+
+          {follow ? (
+            <button
+              onClick={handlefollowClick}
+              className="btn btn-ghost border border-[#323232] dark:border-[#fbfcfc] text-[#323232] dark:text-white rounded-full h-fit px-8"
+            >
+              Followed
+            </button>
+          ) : (
+            <button
+              onClick={handlefollowClick}
+              className="btn btn-error border border-[#ff5861] rounded-full h-fit px-8"
+            >
+              Follow
+            </button>
+          )}
         </div>
         <div className="overvewSection flex justify-center items-center gap-6 pb-4">
           <div className="flwrOvervew border min-w-[6rem] p-4 rounded-lg text-black dark:text-white text-center">
-            <h4 className="overewNumber font-bold text-xl pb-2">97.3M</h4>
+            <h4 className="overewNumber font-bold text-xl pb-2">{formatNumber(follower)}</h4>
             <p className="overvewLabel text-xs font-thin ">Followers</p>
           </div>
           <div className="postOvervew border min-w-[6rem] p-4 rounded-lg text-black dark:text-white text-center">
-            <h4 className="overewNumber font-bold text-xl pb-2">90</h4>
+            <h4 className="overewNumber font-bold text-xl pb-2">{totalPost}</h4>
             <p className="overvewLabel text-xs font-thin ">Posts</p>
           </div>
         </div>
@@ -95,12 +126,12 @@ const Profile = () => {
         <div className="gallery flex flex-wrap items-center gap-3 pb-4">
           {posts.map((e) => (
             <div key={e.id} className="avatar ">
-              <div className="w-36 rounded ">
+              <div className="w-[6.6rem] sm:w-36 rounded ">
                 <LazyLoadImage
                   effect="blur"
                   src={e.img}
                   alt=""
-                  className="w-36 rounded "
+                  className="rounded "
                 />
               </div>
             </div>

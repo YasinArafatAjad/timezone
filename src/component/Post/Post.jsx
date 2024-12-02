@@ -69,7 +69,7 @@ const Post = ({
               <div className="post_userPanel_wrapper flex gap-2 items-center">
                 {/* user img */}
                 <label htmlFor="userImg">
-                  <div className="avatar online ">
+                  <div className="avatar">
                     <div className="w-12 rounded-full ring-slate-400 ring-offset-base-100 ring-2 ring-offset-1">
                       <LazyLoadImage effect="blur" src={userImg} alt="userImg" />
                     </div>
@@ -117,9 +117,9 @@ const Post = ({
                   tabIndex={0}
                   className="dropdown-content menu bg-base-100 dark:bg-slate-200 dark:text-slate-700 rounded-box z-[1] w-52 p-2 shadow"
                 >
-                  <li>
+                  {/* <li>
                     <a>View Post</a>
-                  </li>
+                  </li> */}
                   <li>
                     <a onClick={handleCopyLink}>Copy Link</a>
                   </li>
