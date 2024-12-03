@@ -54,11 +54,11 @@ const Banner = () => {
                 </svg>
               </div>
               <div className="logo-txt relative  flex justify-center items-center h-full w-full">
-                <p className="absolute -left-11 top-1/2 -translate-y-[15%] text-3xl text-transparent font-bold tranlate-x-1/2 tranlate-y-1/2">
-                  Time&nbsp;Zone
+                <p className="absolute -left-10 top-0 -translate-y-[15%] text-3xl text-transparent font-bold tranlate-x-1/2 tranlate-y-1/2">
+                  চুপকথা
                 </p>
-                <p className="absolute -left-11 top-1/2 -translate-y-[15%] text-3xl text-stroke-black dark:text-stroke-white text-transparent font-bold tranlate-x-1/2 tranlate-y-1/2">
-                  Time&nbsp;Zone
+                <p className="absolute -left-10 top-0 -translate-y-[15%] text-3xl text-stroke-black dark:text-stroke-white text-transparent font-bold tranlate-x-1/2 tranlate-y-1/2">
+                  চুপকথা
                 </p>
               </div>
             </div>
